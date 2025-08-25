@@ -5,6 +5,10 @@ VisualStudioVersion = 17.12.35707.178 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSDK", "src\WSDK\WSDK.csproj", "{42FEDAE4-F13C-4B68-AB61-6DCD750217CF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D2A05EB3-BF2E-47B7-8C60-EDA5C6AC7359}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSDK.Tests", "tests\WSDK.Tests\WSDK.Tests.csproj", "{BEA1A4D2-EF96-4E96-9E60-91F273045E4F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +19,15 @@ Global
 		{42FEDAE4-F13C-4B68-AB61-6DCD750217CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42FEDAE4-F13C-4B68-AB61-6DCD750217CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42FEDAE4-F13C-4B68-AB61-6DCD750217CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEA1A4D2-EF96-4E96-9E60-91F273045E4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEA1A4D2-EF96-4E96-9E60-91F273045E4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEA1A4D2-EF96-4E96-9E60-91F273045E4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEA1A4D2-EF96-4E96-9E60-91F273045E4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BEA1A4D2-EF96-4E96-9E60-91F273045E4F} = {D2A05EB3-BF2E-47B7-8C60-EDA5C6AC7359}
 	EndGlobalSection
 EndGlobal
